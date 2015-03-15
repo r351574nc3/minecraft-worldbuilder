@@ -12,9 +12,15 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <firebase-client.version>2.2.1</firebase-client.version>
   </properties>
 
   <dependencies>
+    <dependency>
+      <groupId>com.firebase</groupId>
+      <artifactId>firebase-client-jvm</artifactId>
+      <version>${firebase-client.version}</version>
+    </dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
